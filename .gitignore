@@ -119,3 +119,10 @@ web-report/
 
 # macOS
 .DS_Store
+
+# uploads folder
+server/uploads/*
+!server/uploads/.gitkeep
+
+# sqlite3
+*.sqlite3
